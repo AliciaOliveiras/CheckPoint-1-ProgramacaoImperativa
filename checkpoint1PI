@@ -50,4 +50,3 @@ if(comida == "pipoca" && tempoEmSegundos > 20 && tempoEmSegundos < 30){
 }
 }
 
-menu()
