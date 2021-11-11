@@ -2,47 +2,47 @@ function menu(comida, tempoEmSegundos){
 
 //pipoca - 10s
 if(comida == "pipoca" && tempoEmSegundos > 20 && tempoEmSegundos < 30){
-    console.log("Sua comida queimou!");
+    console.log("Prato pronto, bom apetite! *Sua comida queimou!*");
 }else if(comida == "pipoca" && tempoEmSegundos < 10){
-    console.log("Tempo insuficiente");
+    console.log("Prato pronto, bom apetite! *Tempo insuficiente*");
 }else if (comida == "pipoca" && tempoEmSegundos >= 30){
-    console.log("KABUMM");
+    console.log("Prato pronto, bom apetite! *KABUMM*");
 }else if(comida == "pipoca" && tempoEmSegundos >= 10 && tempoEmSegundos <= 20){
     console.log("Prato pronto, bom apetite!!!");
 //macarrão - 8s
 }else if(comida == "macarrão" && tempoEmSegundos > 16 && tempoEmSegundos < 24){
-    console.log("Sua comida queimou!");
+    console.log("Prato pronto, bom apetite! *Sua comida queimou!*");
 }else if(comida == "macarrão" && tempoEmSegundos < 8){
-    console.log("Tempo insuficiente");
+    console.log("Prato pronto, bom apetite! *Tempo insuficiente*");
 }else if (comida == "macarrão" && tempoEmSegundos >= 24){
-    console.log("KABUMM");
+    console.log("Prato pronto, bom apetite! *KABUMM*");
 }else if(comida == "macarrão" && tempoEmSegundos >= 8 && tempoEmSegundos <= 16){
     console.log("Prato pronto, bom apetite!!!");
 // carne - 15s
 }else if(comida == "carne" && tempoEmSegundos > 30 && tempoEmSegundos < 45){
-    console.log("Sua comida queimou!");
+    console.log("Prato pronto, bom apetite! *Sua comida queimou!*");
 }else if(comida == "carne" && tempoEmSegundos < 15){
-    console.log("Tempo insuficiente");
+    console.log("Prato pronto, bom apetite! *Tempo insuficiente*");
 }else if (comida == "carne" && tempoEmSegundos >=45){
-    console.log("KABUMM");
+    console.log("Prato pronto, bom apetite! *KABUMM*");
 }else if(comida == "carne" && tempoEmSegundos >= 15 && tempoEmSegundos <= 30){
     console.log("Prato pronto, bom apetite!!!");
 //feijão 12s
 }else if(comida == "feijão" && tempoEmSegundos > 24 && tempoEmSegundos < 36){
-    console.log("Sua comida queimou!");
+    console.log("Prato pronto, bom apetite! *Sua comida queimou!*");
 }else if(comida == "feijão" && tempoEmSegundos < 12){
-    console.log("Tempo insuficiente");
+    console.log("Prato pronto, bom apetite! *Tempo insuficiente*");
 }else if (comida == "feijão" && tempoEmSegundos >= 36){
-    console.log("KABUMM");
+    console.log("Prato pronto, bom apetite! *KABUMM*");
 }else if(comida == "feijão" && tempoEmSegundos >= 12 && tempoEmSegundos <= 24){
     console.log("Prato pronto, bom apetite!!!");
 // brigadeiro - 8s
 }else if(comida == "brigadeiro" && tempoEmSegundos > 16 && tempoEmSegundos < 24){
-    console.log("Sua comida queimou!");
+    console.log("Prato pronto, bom apetite! *Sua comida queimou!*");
 }else if(comida == "brigadeiro" && tempoEmSegundos < 8){
-    console.log("Tempo insuficiente");
+    console.log("Prato pronto, bom apetite! *Tempo insuficiente*");
 } else if (comida == "brigadeiro" && tempoEmSegundos >= 24){
-    console.log("KABUMM");
+    console.log("Prato pronto, bom apetite! *KABUMM*");
 }else if(comida == "brigadeiro" && tempoEmSegundos >= 8 && tempoEmSegundos <= 16){
     console.log("Prato pronto, bom apetite!!!");
 }else{
